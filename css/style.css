@@ -164,6 +164,28 @@ img {
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .lessons {
+        background-color: #232946;
+        padding-bottom: 30px;
+    }
+
+    main {
+        background-color: rgb(8, 8, 8);
+    }
+
+    .steps {
+        margin: 0 0;
+    }
+
+    .why-us {
+        padding-top: 40px;
+    }
+
+
+}
+
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
