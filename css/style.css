@@ -62,6 +62,17 @@ img {
 
 }
 
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 100vh;
+    }
+
+}
+
 .row {
     display: flex;
 }
@@ -108,9 +119,7 @@ img {
     color: #232946;
 }
 
-.steps .col {
-    width: calc(100% / 3);
-}
+
 
 @media screen {}
 
